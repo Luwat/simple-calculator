@@ -1,0 +1,44 @@
+/*Removing padding*/
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/*styling the body*/
+body {
+    background-color: #291935;
+    color: #ffffff;
+    font-family: "Comic Sans MS";
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 3.5rem;
+}
+
+.calc {
+    text-align: center;
+    height: 120px;
+    background-color: #7c6f6f;
+    padding: 20px 0px;
+}
+
+.calc input {
+    font-size: 1.5rem;
+    padding: 5px 10px;
+    width: 10%;
+    height: 30px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 0px;
+}
+
+.calc select, .calc button {
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 0px;
+}
